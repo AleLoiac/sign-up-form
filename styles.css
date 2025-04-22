@@ -52,6 +52,6 @@ body {
     align-self: center;
 }
 
-form {
+.container {
     flex: 2;
 }
