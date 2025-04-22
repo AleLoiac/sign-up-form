@@ -50,6 +50,11 @@ body {
 
 .credit {
     align-self: center;
+    color: white;
+}
+
+a:link {
+    color: white;
 }
 
 .container {
