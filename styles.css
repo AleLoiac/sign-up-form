@@ -61,3 +61,7 @@ a:link {
 .container {
     flex: 1.7;
 }
+
+.header {
+    max-inline-size: 65ch;
+}
