@@ -1,8 +1,53 @@
 @font-face {
     font-family: 'Quicksand';
-    src: url('Quicksand-Regular.woff2') format('woff2'),
-        url('Quicksand-Regular.woff') format('woff');
+    src: url('font/Quicksand-Regular.woff2') format('woff2'),
+        url('font/Quicksand-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-sidebar {
+    background-image: url("img/toucan.jpg");
+    background-size: auto 100vh;
+    background-position: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.logo-text {
+    font-family: Quicksand;
+    font-size: 8rem;
+    color: white;
+}
+
+.credit {
+    align-self: center;
+}
+
+form {
+    flex: 2;
 }
