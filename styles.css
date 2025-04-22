@@ -38,6 +38,10 @@ body {
     background-color: rgba(0, 0, 0, 0.308);
 }
 
+.logo-img {
+    max-height: 90%;
+}
+
 .logo-text {
     font-family: Quicksand;
     font-size: 8rem;
