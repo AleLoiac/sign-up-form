@@ -72,7 +72,7 @@ a:link {
     padding: 0 0 70px 60px;
     font-weight: 600;
     font-size: 1.4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header > p + p {
@@ -100,7 +100,7 @@ legend {
     margin-bottom: 30px;
     font-weight: 600;
     font-size: 1.4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 form input {
@@ -130,4 +130,29 @@ form input[type="password"]:invalid:focus {
 form label {
     font-family: monospace;
     color: rgb(66, 66, 66);
+}
+
+.below-form {
+    padding: 30px 0 0 60px;
+}
+
+button[type="submit"] {
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    background-color: rgb(248 125 4);
+    color: white;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.350);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    border: 1px solid rgb(150, 75, 0);
+}
+
+button[type="submit"]:active {
+    box-shadow: inset 1px 1px 3px rgba(175, 88, 1, 0.863);
 }
